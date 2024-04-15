@@ -1,0 +1,42 @@
+#goal-title{
+    text-align: center;
+}
+
+.goal-check{
+    width: 80%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.goal-wrap{
+    display: flex;
+    justify-content: center;
+    height: 418px;
+}
+.single-goal{
+    background: #F1F1F1;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    height: 56px;
+    align-items: center;
+
+}
+.goal{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 97vh;
+
+}
+
+.button{
+    text-transform: capitalize;
+    width: 100%;
+    height: 50px;
+    border: none;
+    color: white;
+    background-color: hsla(228, 100%, 81%, 1);
+
+}

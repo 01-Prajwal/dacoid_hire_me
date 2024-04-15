@@ -1,0 +1,200 @@
+.icon-wrap{
+    display: flex;
+    /* background-image: linear-gradient(to right,  #89A1FF,white); */
+    background: linear-gradient(90.07deg, rgba(129, 157, 255, 0.28) 5.94%, rgba(16, 16, 16, 0) 76.45%);
+    /* width: 86%; */
+    align-items: center;
+    justify-content: center;
+}
+a{
+    /* list-style-type: none; */
+    text-decoration: none;
+}
+.arrows{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sp{
+    background: linear-gradient(90.95deg, #DEE5FF 0.79%, #809AFF 99.18%);
+    color: white;
+}
+.dates{
+    display: flex;
+    justify-content: space-around;
+}
+.date{
+    font-weight: bolder;
+    text-transform: uppercase;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 56px;
+    width: 52px;
+    border-radius: 7px;
+}
+.time{
+    border-bottom: 1px solid;
+}
+.div1{
+    text-align: center;
+    background: linear-gradient(270deg, #D3A4F4 0%, #E9B1E0 102.35%);
+    color: white;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    width: 180px;
+    justify-content: center;
+    transform: translateY(30px);
+}
+.div2{
+    text-align: center;
+    background: linear-gradient(270deg, #D3A4F4 0%, #E9B1E0 102.35%);
+    color: white;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    width: 214px;
+    justify-content: center;
+    transform: translate(-52px,25px);
+
+}
+.div3{
+    text-align: center;
+    background: var(--gray-50, #F1F1F1);
+    color: black;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    width: 214px;
+    justify-content: center;
+    transform: translate(-52px,7px);
+    font-weight: bolder;
+
+}
+.div4{
+    text-align: center;
+    background: linear-gradient(270deg, #D3A4F4 0%, #E9B1E0 102.35%);
+    color: white;
+    height: 62px;
+    display: flex;
+    align-items: center;
+    border-radius: 31px;
+    width: 63px;
+    justify-content: center;
+    transform: translate(-10px,-20px);
+}
+.time1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+
+}
+.time>h3{
+    margin-left: 10px;
+    font-weight: 600;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    height: 7vh;
+    justify-content: space-around;
+    background: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    border-radius: 17px;
+    cursor: pointer;
+
+}
+.nav1,.nav2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 31%;
+}
+.both{
+    display: flex;
+    justify-content: space-around;
+    width: 75%;
+    align-items: center;
+}
+.txt{
+    color: black;
+    font-weight: bold;
+    margin-left: 14px;
+}
+.upcoming{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 40vh;
+}
+.up-txt{
+    display: flex;
+    flex-direction: column;
+}
+.up-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 20px;
+    background: #FFFFFF;
+    box-shadow: 0px 9px #00000026;
+}
+.mid{
+    background: linear-gradient(90.95deg, #DEE5FF 0.79%, #809AFF 99.18%);
+    height: 44px;
+    width: 40px;
+    color: white;
+    border-radius: 23px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(-18px);
+}
+.up-heads{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-transform: capitalize;
+    /* font-weight: 600; */
+}
+.train{
+ background: #b9cffe;
+ height: 20vh;
+
+}
+.train-div{
+    display: flex;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+.train-heads{
+    display: flex;
+    flex-direction: column;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+.train-heads>span{
+    margin-bottom: 7px;
+}
+.train-div>img{
+    border-radius: 63px;
+    background:#dbe6fe;
+}
+@media only screen and (max-device-width: 280px) {
+    .div2{
+        transform: translate(-16px,25px);
+    }
+    .div3{
+        transform: translate(-9px,7px);
+    }
+}

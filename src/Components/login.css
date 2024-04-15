@@ -1,0 +1,24 @@
+.logo{
+    display: flex;
+    width: 370px;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 6px;
+}
+.checkbox{
+    margin: 19px;
+}
+.flex{
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+
+}
+.wrap-login{
+    display: flex;
+    flex-direction: column;
+    height: 234px;
+    justify-content: space-evenly;
+
+}
